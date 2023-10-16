@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "525441748731",
+    "project_id": "pushnotificationalert-cbdd9",
+    "storage_bucket": "pushnotificationalert-cbdd9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525441748731:android:489ec93a1a5332f31eea5e",
+        "android_client_info": {
+          "package_name": "com.awesomeproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaSky7ubAkhsVnhzRDnMS5-MwRhtA1Tgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525441748731:android:6d9aeab1aac5baf71eea5e",
+        "android_client_info": {
+          "package_name": "com.bt.pushnoti"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaSky7ubAkhsVnhzRDnMS5-MwRhtA1Tgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
