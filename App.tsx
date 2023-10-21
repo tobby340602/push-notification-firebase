@@ -1,10 +1,7 @@
 import React, { useEffect } from 'react';
-
 import {AppRegistry, PermissionsAndroid, View, Text, Button} from 'react-native';
-
 import { Alert } from 'react-native';
 import messaging from '@react-native-firebase/messaging';
-// var admin = require('firebase-admin');
 
 function App(): JSX.Element {
   useEffect(() => {
@@ -22,6 +19,7 @@ function App(): JSX.Element {
   // Get the token
     const token = await messaging().getToken();
     console.log(token);
+  // Send request to permissions for post_notification
     const result = await PermissionsAndroid.request(PermissionsAndroid.PERMISSIONS.POST_NOTIFICATIONS);
     if(result){
       console.log("Notification is available!");
@@ -33,7 +31,7 @@ function App(): JSX.Element {
     });
     AppRegistry.registerComponent('app', () => App);
   }
-
+// Show test alert
   const _sendNotificaion = async ()=>{
     Alert.alert('Alert', 'Sent notification');
     //const tokens = await getTokensFromDatastore();
